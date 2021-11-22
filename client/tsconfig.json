@@ -4,7 +4,7 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "removeComments": true,
     "sourceMap": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,

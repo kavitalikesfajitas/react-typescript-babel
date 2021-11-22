@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-const App = () => {
+const App: React.FC = () => {
     return <div>Bob</div>;
 };
 
