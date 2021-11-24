@@ -14,5 +14,5 @@
     "noImplicitAny": false,
     "esModuleInterop": true
   },
-  "include": ["boilerplate/src"]
+  "include": ["./boilerplate/src"]
 }

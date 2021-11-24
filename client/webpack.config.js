@@ -55,7 +55,9 @@ const config = {
     port: 5000, // Defaults to 8080,
     open: "index.html"
   },
-
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', 'json']
+  },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
