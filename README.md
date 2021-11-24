@@ -9,4 +9,4 @@ If you'd like to rename the folder structure, which I imagine you would since bo
       ```"lint": "eslint [folder name here]",```
 2. Under `lint-staged` change  ```eslint [folder name]/src/ --fix"```
 3. In the `client\webpack.config.js` change `MAIN_DIR_FOLDER` from `boilerplate` to the folder you want
-4. Here in the tsconfig.json(https://github.com/kavitalikesfajitas/react-typescript-babel/blob/main/client/tsconfig.json#L14)file you'll want to remove boilerplate and change it to the name you want  
+4. Here in the tsconfig.json (https://github.com/kavitalikesfajitas/react-typescript-babel/blob/main/client/tsconfig.json#L14) file you'll want to remove ``boilerplate`` and change it to the name you want  
