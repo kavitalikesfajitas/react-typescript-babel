@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import TestApp from './TestComponent';
 
 const App: React.FC = () => {
-    return <TestApp/>
+    return <TestApp />;
 };
 
 render(<App />, document.getElementById('root'));
