@@ -1,5 +1,5 @@
-# React-with-Typescript-Babel and Eslint enabled
- Base React Typescript with Eslint Boilerplate template
+# React-with-Typescript-Babel and Eslint enabled (styled-components are linted as well)
+ Base React Typescript with Eslint Boilerplate template with Styled Components linting
 # Hooks, Lint and Prettify 
  This template comes with airbnb eslint rules, plus couple of my preferred standards. It also has a pre-commit hook setup that prettifies code before submission and will not let you commit with out fixes lint issues ( to bypass ``--no-verify``)
 
