@@ -61,7 +61,8 @@ const config = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: "./index.html"
+      template: "./index.html",
+      inject: false
     }),
     new CopyPlugin({
       patterns: [
