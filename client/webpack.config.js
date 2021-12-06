@@ -52,7 +52,9 @@ const config = {
     ]
   },
   devServer: {
-    port: 5000, // Defaults to 8080,
+    port: 5000, 
+    historyApiFallback: true,
+    open: "index.html",
     open: "index.html"
   },
   resolve: {
